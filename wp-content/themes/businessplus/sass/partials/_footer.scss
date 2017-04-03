@@ -1,0 +1,68 @@
+.site-footer {
+	padding: 95px 0 95px 0;
+	width: 100%;
+	min-height: 435px;
+	background-color: #2a2b2c;
+	h3.title {
+		margin-bottom: 30px;
+		color: $secondary_font_color;
+		font: 700 18px $secondary_font;
+		text-transform: uppercase;
+	}
+	span {
+		display: block;
+		color: #8e8e8e;
+		font: 600 13px $head_font;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	.footer-social-icons {
+		text-align: center;
+		li {
+			display: inline-block;
+			margin-right: 20px;
+		}
+	}
+	.foot-copyright {
+		display: block;
+		margin: 20px 0 40px 0;
+	}
+	.wpcf7-form {
+		max-width: 450px;
+		input[type="text"], input[type="email"] {
+			width: 225px;
+			padding-left: 20px;
+			background-color: transparent;
+			border: 1px solid #373839;
+			font: 400 14px/45px $head_font;
+		}
+		.wpcf7-textarea {
+			min-width: 100%;
+			background-color: transparent;
+			border: 1px solid #373839;
+			padding: 10px;
+			resize: none;
+		}
+	}
+}
+.footer-menu-1 {
+	li {
+		list-style: url('img/arrow-r.png');
+		border-bottom: 1px solid #373839;
+	}
+	li:last-child {border-bottom: none;}
+	a {
+		display: block;
+		padding: 10px 5px;
+		color: #7b7b7c;
+		font: 600 13px $head_font;
+		text-transform: uppercase;
+		&:hover, &:focus {
+			text-decoration: none;
+			color: $site_color;
+			transition: all .4s ease-in-out;
+		}
+	}
+}
+
+

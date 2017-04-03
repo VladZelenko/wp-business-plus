@@ -1,0 +1,96 @@
+h1, .h1, h2, .h2, h3, .h3 {margin: 0;}
+.blog-post {
+	margin: 100px 0;
+	.title {
+		color: $primary_head_color;
+		font: 800 30px $secondary_font;
+		text-transform: uppercase;
+	}
+	.subtitle {
+		margin-top: 10px;
+		color: $primary_head_color;
+		font: italic 16px $Lora;
+	}
+	.pagination {
+		.nav-links {
+			width: 100%;
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: center;
+		}
+		.page-numbers {
+			margin-right: 10px;
+			display: block;
+			width: 50px;
+			border: 2px solid #2a2b2c;
+			background-color: rgba(255, 255, 255, 0);
+			color: #2a2b2c;
+			font: 400 18px/50px $head_font;
+			text-align: center;
+			&:hover, &:focus {
+				text-decoration: none;
+				color: $site_color;
+				border: 2px solid $site_color;
+				background-color: rgba(255, 255, 255, 0);
+				transition: all .4s ease-in-out;
+			}
+		}
+		.current {
+			color: $site_color;
+			border: 2px solid $site_color;
+			background-color: rgba(255, 255, 255, 0);
+		}
+		.screen-reader-text, .prev, .next {display: none;}
+	}
+}
+
+.blog-pagination {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.site-main {
+	padding: 100px 0 110px 0;
+	.avatar {border-radius: 50%;}
+}
+//post
+.post {
+	margin: 30px 0 50px 0;
+	border-bottom: 1px solid #e6e9ee;
+	padding-bottom: 70px;
+	.title a{
+		color: #1c1c1c;
+		font: 700 18px $secondary_font;
+		text-transform: uppercase;
+	}
+	.post-info {
+		margin-top: 15px;
+		color: #757575;
+		text-transform: uppercase;
+		li {
+			margin-right: 10px;
+			display: inline-block;
+			max-width: 100%;
+			min-width: 105px;
+		}
+		a {color: #757575;}
+	}
+	.wp-post-image {
+		margin: 35px 0 45px 0;
+	}
+	p {
+		padding-bottom: 50px;
+		color: #585858;
+		font: 400 14px/28px $head_font;
+	}
+	.post-social-icons {
+		color: #585858;
+		text-transform: uppercase;
+	}
+	footer {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+	}
+}

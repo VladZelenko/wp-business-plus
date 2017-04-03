@@ -1,0 +1,20 @@
+.post-btn, .wpcf7-submit,  {
+	display: block;
+	width: 150px;
+	border: 2px solid #ffaf36;
+	background-color: transparent;
+	color: $site_color;
+	font: 700 13px/50px $secondary_font;
+	text-align: center;
+	text-transform: uppercase;
+	&:hover, &:focus {
+		text-decoration: none;
+		background-color: $site_color;
+		color: $nav_font_color;
+		transition: all .4s ease-in-out;
+	}
+}
+.news-btn {
+	@extend .post-btn;
+	margin: 0 auto;
+}

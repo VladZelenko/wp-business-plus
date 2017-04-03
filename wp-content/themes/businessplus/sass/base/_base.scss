@@ -1,0 +1,36 @@
+*, *:after, *:before {box-sizing: border-box;}
+li {list-style: none;}
+a {text-decoration: none;}
+a:hover {text-decoration: none;}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.home-title {
+	color: $primary_head_color;
+	font: 800 30px $secondary_font;
+	text-transform: uppercase;
+}
+.home-subtitle {
+	color: $primary_head_color;
+	font: italic 16px/30px $Lora;
+}
+
+// .icon {
+//   /* use !important to prevent issues with browser extensions that change fonts */
+//   font-family: 'icomoon' !important;
+//   speak: none;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-variant: normal;
+//   text-transform: none;
+//   line-height: 1;
+//   font-size: 85px;
+//   color: #b9b7b7;
+
+//   /* Better Font Rendering =========== */
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+// }
+

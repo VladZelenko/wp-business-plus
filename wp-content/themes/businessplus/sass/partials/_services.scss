@@ -1,0 +1,19 @@
+	.site-main {padding: 0;}
+	.home-services {
+		padding: 100px 0;
+		width: 100%;
+		min-height: 670px;
+		background-color: #eaeff3;
+		.home-subtitle {padding-bottom: 65px;}
+		.service-title {
+			margin-bottom: 65px;
+			color: $p_font_color;
+			font: 400 14px $p_font_color;
+			h3 {
+				color: $primary_head_color;
+				font: 700 16px $secondary_font;
+				text-transform: uppercase;
+			}
+			p {line-height: 28px;}
+		}
+	}

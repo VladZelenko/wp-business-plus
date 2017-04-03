@@ -1,0 +1,27 @@
+.hero {
+	width: 100%;
+	min-height: 395px;
+	// background-image: url('img/blog-header.png');
+	.site-header {
+		border-bottom: 1px solid #687573;
+	}
+}
+h1 {margin: 0;}
+.heder-nav {
+	margin-top: 25px;
+	background: none;
+	border: none;
+	.header-menu-1 {
+		margin-top: 15px;
+		li a {
+			color: $secondary_font_color;
+			text-transform: uppercase;
+			&:hover, &:focus {
+				color: #ffaf36;
+				text-decoration: none;
+				transition: all .4s ease-in-out;
+			}
+		}
+		.current-menu-item a{color: $site_color;}
+	}
+}

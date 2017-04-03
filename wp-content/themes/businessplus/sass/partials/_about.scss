@@ -1,0 +1,10 @@
+	.home-about {
+		padding: 100px 0;
+		width: 100%;
+		min-height: 350px;
+		p {
+			padding-bottom: 30px;
+			color: $p_font_color;
+			font: 400 14px/28px $head_font;
+		}
+	}

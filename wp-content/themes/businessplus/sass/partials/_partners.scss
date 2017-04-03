@@ -1,0 +1,29 @@
+.home-partners {
+	padding: 100px 0;
+	width: 100%;
+	min-height: 460px;
+	.home-subtitle {padding-bottom: 60px;}
+	.partners-label {
+		img {
+			width: 50%;
+			margin: 0 auto;
+		}
+	}
+	.slick-list {margin-bottom: 55px;}
+	.slick-dots {
+		display: flex;
+		justify-content: flex-start;
+		list-style: none;
+		li {margin-right: 5px;}
+		button, li {
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			background: #36a8ff;
+			text-indent: -999px;
+		}
+		.slick-active {
+			button{background-color: $site_color;}
+		}
+	}
+}

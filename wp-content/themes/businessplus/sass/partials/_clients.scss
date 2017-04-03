@@ -1,0 +1,26 @@
+.home-clients {
+	padding: 100px 0;
+	width: 100%;
+	min-height: 580px;
+	.home-subtitle {padding-bottom: 25px;}
+	p {
+		padding-bottom: 48px;
+		color: $p_font_color;
+		font: 400 14px/28px $head_font;
+	}
+	.flexbox {
+		min-height: 70px;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	.col-2 {
+		padding-left: 40px;
+		h3 {
+			color: $primary_head_color;
+			font: 700 14px $secondary_font;
+			text-transform: uppercase;
+		}
+	}
+}
